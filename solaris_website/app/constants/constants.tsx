@@ -17,11 +17,11 @@ export const navLinks = [
     {
         id: 4,
         label: "Presentation Slides",
-        url: "#",
+        url: "/slides",
     },
     {
         id: 5,
         label: "Videos",
-        url: "#",
+        url: "/videos",
     }
 ]

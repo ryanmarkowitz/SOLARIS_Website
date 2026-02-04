@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import PDFCards from './PDFCards'
+import { getAssetPath } from '../../utils/assetPath'
 
 interface PDFItem {
   id: string
@@ -15,7 +16,7 @@ const PdfUploadsLogic = () => {
     {
       id: '1',
       title: 'Divide and Conquer Report',
-      filename: 'Divide_and_Conquer.pdf',
+      filename: getAssetPath('/Divide_and_Conquer.pdf'),
       description: 'First sample report'
     }
     // Add more PDFs here as needed

@@ -3,6 +3,7 @@ import { navLinks } from "../../../constants/constants";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { HiBars3BottomRight } from "react-icons/hi2";
+import { getAssetPath } from "../../../utils/assetPath";
 
 
 type Props = {
@@ -33,7 +34,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-evenly mx-auto">
         {/* LOGO */}
         <div className="flex items-center px-10">
-          <img src="/SOLARIS.png" alt="SOLARIS" className="h-12 md:h-16" />
+          <img src={getAssetPath("/SOLARIS.png")} alt="SOLARIS" className="h-12 md:h-16" />
         </div>
         {/* NAV LINKS */}
         <div className="hidden lg:flex items-center space-x-10">

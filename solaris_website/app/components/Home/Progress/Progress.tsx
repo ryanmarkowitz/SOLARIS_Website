@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import { FaChevronLeft, FaChevronRight, FaTimes } from "react-icons/fa";
 import ProgressCards from "./ProgressCards";
 import Image from "next/image";
+import { getAssetPath } from "../../../utils/assetPath";
 
 const Progress = () => {
   const [selectedImage, setSelectedImage] = useState<{ src: string; title: string; description: string } | null>(null);
@@ -10,42 +11,42 @@ const Progress = () => {
 
   const progressImages = [
     {
-      src: "/SOLARIS.png",
+      src: getAssetPath("/SOLARIS.png"),
       title: "Initial Design",
       description: "Early concept and design phase of SOLARIS"
     },
     {
-      src: "/SOLARIS_model.png", 
+      src: getAssetPath("/SOLARIS_model.png"), 
       title: "3D Model",
       description: "First 3D model and prototype design"
     },
     {
-      src: "/file.svg",
+      src: getAssetPath("/file.svg"),
       title: "Component Testing",
       description: "Testing individual components and systems"
     },
     {
-      src: "/globe.svg",
+      src: getAssetPath("/globe.svg"),
       title: "Integration Phase",
       description: "Integrating all systems together"
     },
     {
-      src: "/next.svg",
+      src: getAssetPath("/next.svg"),
       title: "Software Development",
       description: "Developing control algorithms and user interface"
     },
     {
-      src: "/vercel.svg",
+      src: getAssetPath("/vercel.svg"),
       title: "Hardware Assembly",
       description: "Assembling physical components and wiring"
     },
     {
-      src: "/window.svg",
+      src: getAssetPath("/window.svg"),
       title: "Field Testing",
       description: "Testing SOLARIS in outdoor environments"
     },
     {
-      src: "/SOLARIS_model1.png",
+      src: getAssetPath("/SOLARIS_model1.png"),
       title: "Final Prototype",
       description: "Completed SOLARIS prototype ready for demonstration"
     }

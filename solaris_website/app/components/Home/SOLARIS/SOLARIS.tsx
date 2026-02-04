@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { getAssetPath } from "../../utils/assetPath";
 
 const SOLARIS = () => {
   return (
@@ -30,7 +31,7 @@ const SOLARIS = () => {
           {/* IMAGE CONTENT */}
           <div className="hidden space-y-2 lg:flex lg:flex-col lg:items-center">
             <Image
-              src="/SOLARIS_model1.png"
+              src={getAssetPath("/SOLARIS_model1.png")}
               alt="SOLARIS Model"
               width={500}
               height={500}

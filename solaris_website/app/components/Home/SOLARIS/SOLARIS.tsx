@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { getAssetPath } from "../../utils/assetPath";
+import { getAssetPath } from "../../../utils/assetPath";
 
 const SOLARIS = () => {
   return (

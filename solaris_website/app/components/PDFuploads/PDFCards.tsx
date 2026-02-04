@@ -35,7 +35,7 @@ const PDFCards: React.FC<PDFCardsProps> = ({ pdfs }) => {
           >
             <div className="relative h-48 bg-[var(--surface-2)] flex items-center justify-center">
               <iframe
-                src={`/${pdf.filename}#page=1`}
+                src={`${pdf.filename}#page=1`}
                 className="w-full h-full border-0 pointer-events-none"
                 title={`${pdf.title} preview`}
               />

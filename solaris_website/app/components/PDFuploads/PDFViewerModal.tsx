@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import { getAssetPath } from '../../utils/assetPath'
 
 interface PDFViewerModalProps {
   filename: string | null
@@ -23,7 +24,7 @@ const PDFViewerModal: React.FC<PDFViewerModalProps> = ({ filename, onClose }) =>
         </div>
         <div className="flex-1">
           <iframe
-            src={`/${filename}`}
+            src={getAssetPath(`/${filename}`)}
             className="w-full h-full border-0"
             title="PDF Viewer"
           />

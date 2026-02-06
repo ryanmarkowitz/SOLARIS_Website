@@ -16,8 +16,8 @@ const PdfUploadsLogic = () => {
     {
       id: '1',
       title: 'Divide and Conquer Report',
-      filename: getAssetPath('/Divide_and_Conquer.pdf'),
-      description: 'First sample report'
+      filename: getAssetPath('/Divide_and_Conquer_Revised.pdf'),
+      description: 'Revised report on the Divide and Conquer strategy.'
     }
     // Add more PDFs here as needed
   ]

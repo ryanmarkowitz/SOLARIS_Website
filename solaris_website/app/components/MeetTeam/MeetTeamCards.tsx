@@ -209,7 +209,7 @@ const team: Member[] = [
   {
     name: "Nathan",
     major: "Electrical Engineer",
-    intro: "TODO: Add Nathan's intro here. 2–3 sentences about his background, interests, and role on SOLARIS.",
+    intro: "Nathan is an Electrical Engineering student and U.S. Navy Veteran returning for his degree. When he graduates, he wants to work in the Controls  or DSP career fields. His role on SOLARIS is the PCB design,  and DC motor systems design. ",
     image: "/Nathan_Headshot.jpg",
     imageWidth: 3712,
     imageHeight: 5568,

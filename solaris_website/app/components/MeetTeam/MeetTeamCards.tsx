@@ -215,8 +215,8 @@ const team: Member[] = [
     imageHeight: 5568,
     featured: true,
     facePos: "50% 8%",
-    linkedin: undefined, // TODO: add URL
-    github: "https://github.com/Natehamm66",   // TODO: add URL
+    linkedin: "https://www.linkedin.com/in/nathan-hammond-457242260/", 
+    github: "https://github.com/Natehamm66",  
   },
   {
     name: "Ryan",
@@ -226,8 +226,8 @@ const team: Member[] = [
     imageWidth: 801,
     imageHeight: 2160,
     facePos: "50% 5%",
-    linkedin: "https://www.linkedin.com/in/ryan-markowitz-710646327/", // TODO: add URL
-    github: "https://github.com/ryanmarkowitz",   // TODO: add URL
+    linkedin: "https://www.linkedin.com/in/ryan-markowitz-710646327/", 
+    github: "https://github.com/ryanmarkowitz",  
   },
   {
     name: "Garrett",
@@ -237,19 +237,19 @@ const team: Member[] = [
     imageWidth: 675,
     imageHeight: 1468,
     facePos: "50% 40%",
-    linkedin: "https://www.linkedin.com/in/garrett-allen-fortier/", // TODO: add URL
-    github: "https://github.com/sonkuro",   // TODO: add URL
+    linkedin: "https://www.linkedin.com/in/garrett-allen-fortier/", 
+    github: "https://github.com/sonkuro",   
   },
   {
     name: "Rafael",
     major: "Electrical Engineer",
-    intro: "TODO: Add Rafael's intro here. 2–3 sentences about his background, interests, and role on SOLARIS.",
+    intro: "Rafael is an Electrical Engineering major with a focus on power systems and robotics. He serves as the Project Manager and Power Systems Lead on SOLARIS.",
     image: "/Rafeal_Headshot.jpg",
     imageWidth: 400,
     imageHeight: 400,
     facePos: "50% 20%",
-    linkedin: "https://www.linkedin.com/in/rafael-j-puig/", // TODO: add URL
-    github: "https://github.com/PrivatePilot701",   // TODO: add URL
+    linkedin: "https://www.linkedin.com/in/rafael-j-puig/", 
+    github: "https://github.com/PrivatePilot701",   
   },
 ];
 

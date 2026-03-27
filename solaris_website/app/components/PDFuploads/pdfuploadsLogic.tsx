@@ -18,8 +18,14 @@ const PdfUploadsLogic = () => {
       title: 'Divide and Conquer Report',
       filename: getAssetPath('/Divide_and_Conquer_Revised.pdf'),
       description: 'Revised report on the Divide and Conquer strategy.'
-    }
+    },
     // Add more PDFs here as needed
+    {
+      id: '2',
+      title: 'Midterm Report',
+      filename: getAssetPath('/Midterm_Report.pdf'),
+      description: 'Report for the midterm project. Includes progress on chapters 3, 4, 5, 6, and 7'
+    }
   ]
 
   return (

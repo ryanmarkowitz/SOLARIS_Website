@@ -18,8 +18,12 @@
   --blue: #2563eb;       /* panel blue */
 }
 
-html, body {
-  height: 100%;
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
 }
 
 body {

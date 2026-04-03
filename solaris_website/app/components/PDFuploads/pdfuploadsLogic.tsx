@@ -29,7 +29,7 @@ const PdfUploadsLogic = () => {
     {
       id: '3',
       title: 'Revised Midtem Report',
-      filename: getAssetPath('/Midterm_Rport_Revised.pdf'),
+      filename: getAssetPath('/Midterm_Report_Revised.pdf'),
       description: 'Revisions and additions made to the original Midterm Report.'
     }
   ]

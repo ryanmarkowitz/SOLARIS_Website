@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { getAssetPath } from "../../utils/assetPath";
 
 type Major = "Electrical Engineer" | "Computer Engineer";
 
@@ -210,7 +211,7 @@ const team: Member[] = [
     name: "Nathan",
     major: "Electrical Engineer",
     intro: "Nathan is an Electrical Engineering student and U.S. Navy Veteran returning for his degree. When he graduates, he wants to work in the Controls  or DSP career fields. His role on SOLARIS is the PCB design,  and DC motor systems design. ",
-    image: "/Nathan_Headshot.jpg",
+    image: getAssetPath("/Nathan_Headshot.jpg"),
     imageWidth: 3712,
     imageHeight: 5568,
     featured: true,
@@ -222,7 +223,7 @@ const team: Member[] = [
     name: "Ryan",
     major: "Computer Engineer",
     intro: "Ryan is a Computer Engineering student with a passion for software design, embedded systems, and AI integration across hardware and software platforms. On SOLARIS, he serves as Software Lead and Web Chief, heading development of the companion app and web infrastructure while co-leading software-hardware integration efforts alongside Garrett. Outside of engineering, Ryan enjoys gaming and spending time with his cats.",
-    image: "/Ryan_Headshot.jpg",
+    image: getAssetPath("/Ryan_Headshot.jpg"),
     imageWidth: 801,
     imageHeight: 2160,
     facePos: "50% 5%",
@@ -233,7 +234,7 @@ const team: Member[] = [
     name: "Garrett",
     major: "Computer Engineer",
     intro: "Garrett is a CpE Major with a focus in Digital VLSI Design. He has a passion for ASIC/FPGA design and likes to relax by playing stressful video games. His role on project SOLARIS is that of a hardware-software integration lead.",
-    image: "/Garret_Headshot.jpg",
+    image: getAssetPath("/Garret_Headshot.jpg"),
     imageWidth: 675,
     imageHeight: 1468,
     facePos: "50% 40%",
@@ -244,7 +245,7 @@ const team: Member[] = [
     name: "Rafael",
     major: "Electrical Engineer",
     intro: "Rafael is an Electrical Engineering major with a focus on power systems and robotics. He serves as the Project Manager and Power Systems Lead on SOLARIS.",
-    image: "/Rafeal_Headshot.jpg",
+    image: getAssetPath("/Rafeal_Headshot.jpg"),
     imageWidth: 400,
     imageHeight: 400,
     facePos: "50% 20%",

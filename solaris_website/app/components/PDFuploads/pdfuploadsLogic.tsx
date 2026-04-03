@@ -25,6 +25,12 @@ const PdfUploadsLogic = () => {
       title: 'Midterm Report',
       filename: getAssetPath('/Midterm_Report.pdf'),
       description: 'Report for the midterm project. Includes progress on chapters 3, 4, 5, 6, and 7'
+    },
+    {
+      id: '3',
+      title: 'Revised Midtem Report',
+      filename: getAssetPath('/Midterm_Rport_Revised.pdf'),
+      description: 'Revisions and additions made to the original Midterm Report.'
     }
   ]
 

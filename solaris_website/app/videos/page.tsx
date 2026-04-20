@@ -1,12 +1,12 @@
 import React from 'react'
+import VideosUploadsLogic from '../components/Videos/VideosuploadsLogic'
 
-
-const videos = () => {
+const Videos = () => {
   return (
     <div>
-      <h1>Videos</h1>
+      <VideosUploadsLogic />
     </div>
   )
 }
 
-export default videos
+export default Videos

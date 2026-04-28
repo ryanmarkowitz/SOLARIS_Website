@@ -33,7 +33,7 @@ const TeamCommitte = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-[var(--text)] mb-8 text-center">Team</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <PersonCard name="Ryan Markowitz" role="Computer Engineering" type="team" />
-            <PersonCard name="Rafeal Puig" role="Electrical Engineering" type="team" />
+            <PersonCard name="Rafael Puig" role="Electrical Engineering" type="team" />
             <PersonCard name="Nathan Hammond" role="Electrical Engineering" type="team" />
             <PersonCard name="Garret Fortier" role="Computer Engineering" type="team" />
           </div>

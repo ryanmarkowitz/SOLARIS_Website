@@ -37,6 +37,12 @@ const PdfUploadsLogic = () => {
       title: 'Fianl Report Rough Draft',
       filename: getAssetPath('/Final_Report_Rough_Draft.pdf'),
       description: 'Revisions and additions made to the original Midterm Report.'
+    },
+    {
+      id: '5',
+      title: 'Fianl Report With Revisions',
+      filename: getAssetPath('/Group12_SD1_FinalReport.pdf'),
+      description: 'Revisions and additions made to the original Midterm Report.'
     }
   ]
 

@@ -29,6 +29,11 @@ const VideosUploadsLogic = () => {
       title: 'SOLARIS Ultrasonic Sensor Demonstration',
       youtubeUrl: 'https://youtu.be/QWuNQE30TkI',
     },
+    {
+      id: '5',
+      title: 'SOLARIS Critical Design Review',
+      youtubeUrl: 'https://www.youtube.com/watch?v=0bz9w7NN1Lo',
+    },
     // Add more videos here as needed
   ]
 

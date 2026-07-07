@@ -41,8 +41,14 @@ const PdfUploadsLogic = () => {
     {
       id: '5',
       title: 'Fianl Report With Revisions',
-      filename: getAssetPath('/Group12_SD1_FinalReport.pdf'),
+      filename: getAssetPath('/SD1_FinalReport_Group12.pdf'),
       description: 'Revisions and additions made to the original Midterm Report.'
+    },
+    {
+      id: '6',
+      title: 'SOLARIS Conference Paper',
+      filename: getAssetPath('/SOLARIS_conference_paper.pdf'),
+      description: 'Conference paper submitted for the SOLARIS project.'
     }
   ]
 

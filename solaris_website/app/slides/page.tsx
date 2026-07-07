@@ -1,10 +1,10 @@
 import React from 'react'
-
+import SlidesLogic from '../components/Slides/slidesLogic'
 
 const presentationSlides = () => {
   return (
     <div>
-      <h1>Presentation Slides</h1>
+      <SlidesLogic />
     </div>
   )
 }

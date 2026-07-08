@@ -34,6 +34,11 @@ const VideosUploadsLogic = () => {
       title: 'SOLARIS Critical Design Review',
       youtubeUrl: 'https://www.youtube.com/watch?v=0bz9w7NN1Lo',
     },
+    {
+      id:'6',
+      title: 'SOLARIS Midterm Demo',
+      youtubeUrl: 'https://www.youtube.com/watch?v=vWZnD-At-h8'
+    }
     // Add more videos here as needed
   ]
 
